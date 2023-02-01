@@ -18,7 +18,7 @@ Este projeto é é uma atividade proposta pelo curso Discover e esta sendo utili
 <br>
 
 <p align="center">
-  <img alt="Imagem com um foguete a direita e um contador regressivo a esquerda" src=".git/img/capa.png" width="100%">
+  <img alt="Imagem com um foguete a direita e um contador regressivo a esquerda" src=".git/capa.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
