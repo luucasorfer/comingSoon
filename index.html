@@ -11,32 +11,32 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div class="container">
       <div class="content">
         <div class="countdown">
-          <h1 class="countdown-tittle">Ready to launch in...</h1>
-          <div class="timer">
+          <h1 class="countdown-tittle" id="countdown-tittle">Ready to launch in...</h1>
+          <div class="timer" id="timer">
             <div class="days">
               <span class="timer-label">Dias</span>
-              <p class="timer-value">08</p>
+              <p class="timer-value" id="daysLeft">--</p>
             </div>
             <p class="timer-separator">:</p>
             <div class="hours">
               <span class="timer-label">Horas</span>
-              <p class="timer-value">12</p>
+              <p class="timer-value" id="hoursLeft">--</p>
             </div>
             <p class="timer-separator">:</p>
             <div class="minutes">
               <span class="timer-label">Minutos</span>
-              <p class="timer-value">44</p>
+              <p class="timer-value" id="minutesLeft">--</p>
             </div>
             <p class="timer-separator">:</p>
             <div class="seconds">
               <span class="timer-label">Segundos</span>
-              <p class="timer-value">28</p>
+              <p class="timer-value" id="secondsLeft">--</p>
             </div>
           </div>
           <p class="countdown-description">

@@ -65,11 +65,31 @@ body {
   margin-bottom: 19px;
 }
 
+.countdownIsOver{
+  font-size: 26px;
+  letter-spacing: 0.105em;
+  text-align: center;
+
+  color: var(--purple);
+  text-transform: uppercase;
+
+  margin-bottom: 19px;
+}
+
 .timer {
   display: flex;
   gap: 20px;
 
   text-align: center;
+}
+
+.timerIsOver {
+  font-size: 22px;
+  letter-spacing: 0.105em;
+  text-align: center;
+
+  color: var(--black);
+  text-transform: uppercase;
 }
 
 .timer-label {
