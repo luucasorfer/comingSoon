@@ -1,6 +1,6 @@
 (function () {
   // Definir a data final do contador
-  const countdownDate = new Date("Feb 7, 2023 17:45:00");
+  const countdownDate = new Date("Feb 8, 2023 23:59:59");
 
   function startCountdown() {
     // Iniciar o intervalo de tempo
@@ -14,7 +14,7 @@
       // Se a diferença for menor que zero, o contador expirou e zera o contador
       if (distance < 0) {
         clearInterval(timer);
-        // Atualizar a mensagem na página para "EXPIRED"
+        // Atualizar o elemento colocando uma mensagem na página
         let countdownElement = document.getElementById("countdown-tittle");
         if (countdownElement) {
           countdownElement.innerHTML =

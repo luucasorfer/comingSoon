@@ -109,6 +109,13 @@ body {
 	margin-top: 20px;
 }
 
+.days,
+.hours,
+.minutes,
+.seconds {
+  width: 105px;
+}
+
 .countdown-description {
   font-size: 14px;
   color: var(--text-color);
